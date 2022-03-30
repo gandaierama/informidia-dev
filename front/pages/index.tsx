@@ -16,11 +16,6 @@ const [index, setIndex] = useState(0);
 
 
 
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
   return (
     < >
       <Head>
