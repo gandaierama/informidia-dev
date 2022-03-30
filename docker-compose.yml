@@ -153,7 +153,7 @@ services:
       - 3500:3500
   nextjs:
     container_name: nextjs
-    build: ./front-main
+    build: ./front
     ports:
       - 3000:3000
     networks:
